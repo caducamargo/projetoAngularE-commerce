@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import { HomeComponent } from './components/home/home.component';
-import { CadastrarProdutoComponent } from './components/produtos/cadastrar-produto/cadastrar-produto.component';
+import { IphoneComponent } from './components/produtos/iphone/iphone.component';
 import { ListarProdutosComponent } from './components/produtos/listar-produtos/listar-produtos.component';
 
 const routes: Routes = [
@@ -16,7 +16,7 @@ const routes: Routes = [
     component: ListarProdutosComponent
   },
   {
-    path: 'produtos/cadastrar', component: CadastrarProdutoComponent
+    path: 'produtos/iphone', component: IphoneComponent
   }
 ];
 

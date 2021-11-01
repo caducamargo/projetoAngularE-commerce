@@ -16,7 +16,8 @@ import { SonyComponent } from './components/produtos/sony/sony.component';
 import { XiaomiComponent } from './components/produtos/xiaomi/xiaomi.component';
 
 const routes: Routes = [
-  {path:'',component: HomeComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
+  {path:'home',component: HomeComponent},
   {path:'produtos/lista',component: ListarProdutosComponent},
   {path:'produtos/apple', component: AppleComponent},
   {path:'produtos/samsung',component: SamsungComponent},

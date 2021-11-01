@@ -7,7 +7,16 @@ import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ListarProdutosComponent } from './components/produtos/listar-produtos/listar-produtos.component';
-import { CadastrarProdutoComponent } from './components/produtos/cadastrar-produto/cadastrar-produto.component';
+import { IphoneComponent } from './components/produtos/iphone/iphone.component';
+import { SamsungComponent } from './components/produtos/samsung/samsung.component';
+import { MotorolaComponent } from './components/produtos/motorola/motorola.component';
+import { LgComponent } from './components/produtos/lg/lg.component';
+import { XiaomiComponent } from './components/produtos/xiaomi/xiaomi.component';
+import { AsusComponent } from './components/produtos/asus/asus.component';
+import { NokiaComponent } from './components/produtos/nokia/nokia.component';
+import { SonyComponent } from './components/produtos/sony/sony.component';
+import { BlackberryComponent } from './components/produtos/blackberry/blackberry.component';
+import { HuaweiComponent } from './components/produtos/huawei/huawei.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +25,16 @@ import { CadastrarProdutoComponent } from './components/produtos/cadastrar-produ
     FooterComponent,
     HomeComponent,
     ListarProdutosComponent,
-    CadastrarProdutoComponent
+    IphoneComponent,
+    SamsungComponent,
+    MotorolaComponent,
+    LgComponent,
+    XiaomiComponent,
+    AsusComponent,
+    NokiaComponent,
+    SonyComponent,
+    BlackberryComponent,
+    HuaweiComponent
   ],
   imports: [
     BrowserModule,

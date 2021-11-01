@@ -7,7 +7,6 @@ import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ListarProdutosComponent } from './components/produtos/listar-produtos/listar-produtos.component';
-import { IphoneComponent } from './components/produtos/iphone/iphone.component';
 import { SamsungComponent } from './components/produtos/samsung/samsung.component';
 import { MotorolaComponent } from './components/produtos/motorola/motorola.component';
 import { LgComponent } from './components/produtos/lg/lg.component';
@@ -17,6 +16,7 @@ import { NokiaComponent } from './components/produtos/nokia/nokia.component';
 import { SonyComponent } from './components/produtos/sony/sony.component';
 import { BlackberryComponent } from './components/produtos/blackberry/blackberry.component';
 import { HuaweiComponent } from './components/produtos/huawei/huawei.component';
+import { AppleComponent } from './components/produtos/apple/apple.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,6 @@ import { HuaweiComponent } from './components/produtos/huawei/huawei.component';
     FooterComponent,
     HomeComponent,
     ListarProdutosComponent,
-    IphoneComponent,
     SamsungComponent,
     MotorolaComponent,
     LgComponent,
@@ -34,7 +33,8 @@ import { HuaweiComponent } from './components/produtos/huawei/huawei.component';
     NokiaComponent,
     SonyComponent,
     BlackberryComponent,
-    HuaweiComponent
+    HuaweiComponent,
+    AppleComponent
   ],
   imports: [
     BrowserModule,

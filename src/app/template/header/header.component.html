@@ -1,61 +1,57 @@
+<div class="cont">
 <div class="sidebar-container">
-    <div class="sidebar-logo">
-      Projeto E-Commerce
-    </div>
-    <ul class="sidebar-navigation">
-      <li class="header">Menu</li>
-      <li>
-        <a routerLink="/">
-          <i class="fa fa-home" aria-hidden="true"></i> Página Inicial
-        </a>
-      </li>
-      <li>
-        <a routerLink="/produtos" class="produtos">
-          <i class="fa fa-tachometer" aria-hidden="true"></i> Produtos
-        </a>
-            <ul class="itensProdutos">
-              <li>
-                <a routerLink="/produtos/lista">Listar Produtos</a>
-              </li>
-            <li>
-                <a routerLink="/produtos/apple">Apple</a>
-            </li> 
-            <li>
-              <a routerLink="/produtos/samsung">Samsung</a>
-            </li>
-          <li>
-              <a routerLink="/produtos/motorola">Motorola</a>
-          </li> 
-          <li>
-            <a routerLink="/produtos/lg">LG</a>
-          </li>
+  <div class="sidebar-logo">
+    Projeto E-Commerce
+  </div>
+  <ul class="sidebar-navigation">
+    <li class="header">Menu</li>
+    <li>
+      <a routerLink="/">
+        <i class="fa fa-home" aria-hidden="true"></i> Página Inicial
+      </a>
+    </li>
+    <li>
+      <a routerLink="/produtos" class="produtos">
+        <i class="fa fa-tachometer" aria-hidden="true"></i> Produtos
+      </a>
+      <ul class="itensProdutos">
         <li>
-            <a routerLink="/produtos/nokia">Nokia</a>
-        </li> 
+          <a routerLink="/produtos/apple">Apple</a>
+        </li>
+        <li>
+          <a routerLink="/produtos/samsung">Samsung</a>
+        </li>
+        <li>
+          <a routerLink="/produtos/motorola">Motorola</a>
+        </li>
+        <li>
+          <a routerLink="/produtos/lg">LG</a>
+        </li>
+        <li>
+          <a routerLink="/produtos/nokia">Nokia</a>
+        </li>
         <li>
           <a routerLink="/produtos/sony">Sony</a>
         </li>
-      <li>
+        <li>
           <a routerLink="/produtos/xiaomi">Xiaomi</a>
-      </li> 
-      <li>
-        <a routerLink="/produtos/asus">Asus</a>
-      </li>
-    <li>
-        <a routerLink="/produtos/blackberry">Blackberry</a>
-    </li> 
-    <li>
-      <a routerLink="/produtos/huawei">Huawei</a>
-  </li> 
-            </ul>
-      </li>
-      
-    </ul>
-  </div>
-  
-  <div class="content-container">
-  
-    <div class="container-fluid">
-  
-    </div>
-  </div>
+        </li>
+        <li>
+          <a routerLink="/produtos/asus">Asus</a>
+        </li>
+        <li>
+          <a routerLink="/produtos/blackberry">Blackberry</a>
+        </li>
+        <li>
+          <a routerLink="/produtos/huawei">Huawei</a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</div>
+
+<div class="content-container">
+  <router-outlet></router-outlet>
+</div>
+</div>

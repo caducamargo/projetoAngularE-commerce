@@ -8,9 +8,9 @@ import { AsusComponent } from './components/produtos/asus/asus.component';
 import { BlackberryComponent } from './components/produtos/blackberry/blackberry.component';
 import { HuaweiComponent } from './components/produtos/huawei/huawei.component';
 import { LgComponent } from './components/produtos/lg/lg.component';
-import { ListarProdutosComponent } from './components/produtos/listar-produtos/listar-produtos.component';
 import { MotorolaComponent } from './components/produtos/motorola/motorola.component';
 import { NokiaComponent } from './components/produtos/nokia/nokia.component';
+import { ProdutosComponent } from './components/produtos/produtos/produtos.component';
 import { SamsungComponent } from './components/produtos/samsung/samsung.component';
 import { SonyComponent } from './components/produtos/sony/sony.component';
 import { XiaomiComponent } from './components/produtos/xiaomi/xiaomi.component';
@@ -18,7 +18,7 @@ import { XiaomiComponent } from './components/produtos/xiaomi/xiaomi.component';
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path:'home',component: HomeComponent},
-  {path:'produtos/lista',component: ListarProdutosComponent},
+  {path:'produtos',component: ProdutosComponent},
   {path:'produtos/apple', component: AppleComponent},
   {path:'produtos/samsung',component: SamsungComponent},
   {path:'produtos/motorola', component: MotorolaComponent},

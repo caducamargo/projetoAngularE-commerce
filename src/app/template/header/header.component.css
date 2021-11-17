@@ -1,8 +1,18 @@
+.cont {
+  display:inline-flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
 .sidebar-container {
     position: fixed;
     width: 220px;
     height: 100%;
     left: 0;
+    top: 0;
     overflow-x: hidden;
     overflow-y: auto;
     background: #1a1a1a;
